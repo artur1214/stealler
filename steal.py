@@ -36,7 +36,7 @@ def main():
 	#smtpObj = smtplib.SMTP('smtp.gmail.com', 587)
 	#smtpObj.starttls()
 	#smtpObj.ehlo()
-	#smtpObj.login('artur.2002.artur@gmail.com', 'Wasd123was')
+	#smtpObj.login('', '')
 	with open('hello.txt', 'w' ) as f:
 		for db in databases:
 			try:
